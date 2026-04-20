@@ -14,8 +14,8 @@ st.set_page_config(
 )
 
 # LOAD MODELS
-rf_model_class = joblib	.load("artifacts/classifier.pkl")
-lr_model_reg = joblib.load("artifacts/regressor.pkl")
+rf_model_class = joblib	.load("classifier.pkl")
+lr_model_reg = joblib.load("regressor.pkl")
 
 # SIDEBAR
 st.sidebar.title("🎓 Navigation")
