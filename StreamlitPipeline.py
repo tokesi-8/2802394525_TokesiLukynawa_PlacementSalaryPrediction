@@ -4,8 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# python -m streamlit run e_StreamlitPipeline.py
-
 # CONFIG
 st.set_page_config(
     page_title="Placement Predictor",
